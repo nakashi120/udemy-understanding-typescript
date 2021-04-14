@@ -1,14 +1,10 @@
-var add = function (n1, n2, showResult, phrase) {
-    var result = n1 + n2;
-    if (showResult) {
-        console.log(phrase + result);
-    }
-    else {
-        return result;
-    }
+var person = {
+    name: "Satoshi",
+    age: 30,
+    hobbies: ["Sports", "Cooking"]
 };
-var number1 = 4;
-var number2 = 10;
-var printResult = true;
-var resultPhrase = "Result: ";
-add(number1, number2, printResult, resultPhrase);
+console.log(person.name);
+for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}

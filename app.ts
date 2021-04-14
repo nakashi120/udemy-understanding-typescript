@@ -1,15 +1,14 @@
-const add = (n1: number, n2: number, showResult: boolean, phrase: string) => {
-  const result = n1 + n2
-  if (showResult) {
-    console.log(phrase + result)
-  } else {
-    return result
-  }
+const person = {
+  name: "Satoshi",
+  age: 30,
+  hobbies: ["Sports", "Cooking"],
+  role: [2, "author"],
 }
 
-const number1 = 4
-const number2 = 10
-const printResult = true
-const resultPhrase = "Result: "
+person.role.push("admin")
 
-add(number1, number2, printResult, resultPhrase)
+console.log(person.name)
+
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase())
+}
