@@ -34,6 +34,6 @@ const person = {
   role: Role.ADMIN,
 }
 
-if (person.role === Role.READ_ONLY) {
-  console.log("読み取り専用ユーザー")
+if (person.role === Role.AUTHOR) {
+  console.log("管理者ユーザー")
 }
