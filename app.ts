@@ -28,7 +28,7 @@ enum Role {
 }
 
 const person = {
-  name: "Satoshi",
+  name: "Satoshi Nakashima",
   age: 30,
   hobbies: ["Sports", "Cooking"],
   role: Role.ADMIN,
