@@ -1,7 +1,10 @@
+type Combinable = number | string
+type ConversionDescriptor = "as-number" | "as-text"
+
 const combine = (
-  input1: number | string,
-  input2: number | string,
-  resultConversion: string
+  input1: Combinable,
+  input2: Combinable,
+  resultConversion: ConversionDescriptor
 ) => {
   let result
   if (typeof input1 === "number" && typeof input2 === "number") {
@@ -18,5 +21,5 @@ console.log(combinedAges)
 const combinedNames = combine("Max", "Anna", "as-number")
 console.log(combinedNames)
 
-const combinedAges = combine("30", "26", "as-text")
+const combinedStringAges = combine("30", "26", "as-text")
 console.log(combinedAges)
