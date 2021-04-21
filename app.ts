@@ -15,7 +15,7 @@ const combine = (
   return result
 }
 
-const combinedAges = combine(30, 26, "as-number")
+const combinedAges = combine(30, 25, "as-number")
 console.log(combinedAges)
 
 const combinedNames = combine("Max", "Anna", "as-number")
