@@ -21,5 +21,5 @@ console.log(combinedAges)
 const combinedNames = combine("Max", "Satoshi", "as-number")
 console.log(combinedNames)
 
-const combinedStringAges = combine("30", "26", "as-text")
+const combinedStringAges = combine("30", "25", "as-text")
 console.log(combinedAges)
