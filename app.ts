@@ -6,4 +6,11 @@ const printResult = (num: number): void => {
   console.log("Result: " + num)
 }
 
+let combineValues: (a: number, b: number) => number
+
+combineValues = add
+// combineValues = printResult
+
+console.log(combineValues(8, 9))
+
 printResult(add(5, 12))
