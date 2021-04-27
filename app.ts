@@ -22,4 +22,4 @@ combineValues = add
 
 console.log(combineValues(8, 9))
 
-printResult(add(5, 12))
+printResult(add(5, 13))
