@@ -20,6 +20,6 @@ let combineValues: (a: number, b: number) => number
 combineValues = add
 // combineValues = printResult
 
-console.log(combineValues(8, 10))
+console.log(combineValues(8, 13))
 
 printResult(add(5, 13))
