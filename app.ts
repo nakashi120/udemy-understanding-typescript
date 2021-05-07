@@ -1,9 +1,3 @@
-let userInput: unknown
-let userName: string
+const userName = "Max"
 
-userInput = 5
-userInput = "Max"
-
-if (typeof userInput === "string") {
-  userName = userInput
-}
+console.log(userName)
