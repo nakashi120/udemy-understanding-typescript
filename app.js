@@ -14,5 +14,5 @@ addAndHandle(10, 20, function (result) {
 var combineValues;
 combineValues = add;
 // combineValues = printResult
-console.log(combineValues(8, 9));
-printResult(add(5, 12));
+console.log(combineValues(8, 10));
+printResult(add(5, 13));
