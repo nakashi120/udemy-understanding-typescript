@@ -1,2 +1,3 @@
-var userName = "Max";
-console.log(userName);
+"use strict";
+var userName2 = "Max";
+console.log(userName2);
