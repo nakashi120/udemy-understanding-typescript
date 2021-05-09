@@ -1,3 +1,3 @@
-const userName2 = "Max"
+const userName = "Max"
 
-console.log(userName2)
+console.log(userName)
