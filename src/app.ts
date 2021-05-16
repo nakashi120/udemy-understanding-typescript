@@ -1,5 +1,5 @@
 const button = document.querySelector("button")!
 
 button.addEventListener("click", () => {
-  console.log("Clicked the button!")
+  console.log("Clicked a button!")
 })
